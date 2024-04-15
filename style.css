@@ -1,0 +1,121 @@
+body{
+margin:0;
+padding: 0;
+font-family:Tahoma;
+/* background-image: url(images/images.png); */
+background-size: cover;
+}
+
+.menu{
+  width:80%;
+  margin:0 auto;
+}
+
+header{
+  background-image:url("images/africa.jpg");
+  background:white;
+  width: 100%;
+
+}
+/*after-pseudo.tag perdoret per dekorime*/
+header::after{
+  content:"";
+  clear: both;
+  display: table;
+}
+#logo{
+
+  float:left;
+  color:grey;
+  transition:all ease-in-out 250ms;
+}
+
+#logo:hover{
+  color:black;
+  cursor: pointer;
+}
+
+nav{
+  float:right;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+nav ul li{
+  display: inline-block; /*inline-block=float:left;*/
+  margin-left: 70px;
+  padding-top: 20px;
+  position: relative;
+}
+
+nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: grey;
+  font-size: 16px;
+}
+
+nav a:hover{
+  color:#111;
+  cursor: pointer;
+}
+
+nav a::before{
+  content: "";
+  display:block;
+  background-color:grey;
+  height: 5px;
+  width: 0%;
+  position:absolute;
+  top:0;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+  width: 100%;
+}
+
+#title{
+  text-align: center;
+  font-size: 80px;
+  font-weight: 600;
+  color:white;
+  opacity: 0.8;
+  transition: all ease-in-out 250ms;
+}
+#title:hover{
+color:white;
+font-size: 100px;
+opacity: 1.0;
+transition: all ease-in-out 250ms;
+cursor: pointer;
+}
+
+nav ul li ul li {
+  display: none;
+}
+
+nav ul li:hover ul li{
+ display:block;
+  }
+
+footer {
+  width:100%;
+  height:300px;
+  /*background-image: url("ProjectDesignFinalFooter.png");*/
+  background-size: cover;
+}
+
+.figcap{
+font-style: italic;
+padding-top: 30px;
+font-family: times-new-roman;
+width:23%;
+}
+
+
+

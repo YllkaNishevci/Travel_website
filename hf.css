@@ -1,0 +1,247 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin:0%;
+  background: linear-gradient(rgb(248, 248, 248),#80c9eb);
+  font-family: Tahoma;
+}
+.navigimi{
+  box-sizing: border-box;
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 16px 104px;
+	background:#fff;
+	z-index: 100000;
+  border-bottom: 1px solid #2e2b29;
+  height: 80px;
+}
+
+#linqet_e_navigimit{
+  margin:0%;
+  padding: 0%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#linqet_e_navigimit li{
+	list-style: none;
+	padding-right:  30px;
+}
+#linqet_e_navigimit li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500;
+	color:#070606;
+	padding: 10px 10px;
+	font-family: Candara Light;
+	cursor: pointer;
+}
+
+#linqet_e_navigimit li a:hover{
+	color: #3a3838;
+	border-bottom: 5px solid#3536368e;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius:8px; 
+	border-right: 1px solid#3536368e;
+	border-top: 1px solid #3536368e;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-left: 1px solid#3536368e;
+	transition: all 0.1s ease 0.1s;
+}
+#linqet_e_navigimit li a:active{
+	border-bottom: 1px solidd#3536368e;
+	background-color: #f0eae6;
+}
+
+.button11 {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #0505058e;
+  margin: 20px 20px 20px 20px;
+  color:#0707078e;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.button11 a{
+  color: #0000008e;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+#button-5 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-5 a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#translate {
+  transform: rotate(50deg);
+  width: 100%;
+  height: 250%;
+  left: -200px;
+  top: -30px;
+  background: #000000;
+  position: absolute;
+  transition: all .3s ease-Out;
+}
+
+#button-5:hover #translate {
+  left: 0;
+}
+
+#button-5:hover a {
+  color: #ffffff;
+}
+
+#bar{
+	color:#ff5733;
+	display: none;
+}
+.menu{
+  width:83%;
+  margin:0 auto;
+}
+#title{
+
+  text-align: center;
+  font-size: 80px;
+  font-weight: 600;
+  color:white;
+  opacity: 0.8;
+  transition: all ease-in-out 250ms;
+}
+#title:hover{
+color:white;
+font-size: 100px;
+opacity: 1.0;
+transition: all ease-in-out 250ms;
+cursor: pointer;
+}
+body{
+  background-color: #e7e8ed;
+
+}
+#hf{
+  background:white;
+  font-family:Tahoma;
+  font-size:16px;
+
+}
+/*after-pseudo.tag perdoret per dekorime*/
+#hf::after{
+  content:"";
+  clear: both;
+  display: table;
+}
+#logo{
+  float:left;
+  color:grey;
+  transition:all ease-in-out 250ms;
+}
+
+#logo:hover{
+  color:black;
+  cursor: pointer;
+}
+
+nav{
+  float: right;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+nav ul li{
+  display: inline-block; /*inline-block=float:left;*/
+  margin-left: 70px;
+  padding-top: 20px;
+  position: relative;
+}
+
+nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: grey;
+  font-size: 16px;
+}
+
+nav a:hover{
+  color:#111;
+  cursor: pointer;
+}
+
+nav a::before{
+  content: "";
+  display:block;
+  background-color:grey;
+  height: 5px;
+  width: 0%;
+  position:absolute;
+  top:0;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before{
+  width: 100%;
+}
+header{
+  background-image: url("Kosova/Kosova.png");
+  background-color: (rgba(0, 0, 0, 0.3));
+  background-size: cover;
+
+  height: 440px;
+margin-left: -10px;
+margin-right:-9px;
+
+}
+footer{
+  background-image: url("images/ProjectDesignFinalFooter.png");
+  background-size: cover;
+  height: 300px;
+ margin-left: -10px;
+margin-right:-9px;
+
+}
+#llogo {
+margin-top:2%;
+margin-left:7%;
+float:left;
+width:70%;
+}
+#imglogo {
+margin-right:2%;
+}
+.findfooter{
+margin-right:2%;
+}
+
+#Clock{
+font-size:17px;
+transform: translateX(100%);
+background-color:rgb(80,80,80);
+color:rgb(210,210,210);
+padding: 10px ;
+max-width:25%;
+}
